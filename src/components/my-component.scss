@@ -1,0 +1,21 @@
+.my-component {
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: lightGreen;
+
+  h2.heading {
+    color: black;
+  }
+
+  div {
+    background-color: white;
+    min-height: 50px;
+    position: relative;
+    top: -10px;
+    border: 1px dotted grey;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0;
+  }
+}
