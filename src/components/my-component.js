@@ -5,11 +5,15 @@ class MyComponent extends React.Component {
   constructor(props) {
     super(props);
     this.clickMe = this.clickMe.bind(this);
+    this.state = {
+      times: 1
+    };
   }
 
   clickMe(e) {
     e.preventDefault();
-    alert("clicked");
+    this.setState({ times: this.state.times + 1 });
+    alert("clicked " + this.state.times + " times");
   }
 
   componentDidMount() {}
