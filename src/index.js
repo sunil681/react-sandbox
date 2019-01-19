@@ -7,4 +7,7 @@ document.getElementById("app").innerHTML = `
 <div></div>
 `;
 
-ReactDOM.render(<MyComponent />, document.getElementById("my"));
+ReactDOM.render(
+  <MyComponent message="Welcome from property" />,
+  document.getElementById("my")
+);
